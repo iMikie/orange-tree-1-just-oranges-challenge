@@ -2,6 +2,10 @@
  
 ##Learning Competencies 
 
+* Modeling systems with objects.
+* Use instance variables and accessor methods effectively
+* Work with objects in Ruby
+
 ##Summary 
 
  We're in California, and California grows oranges &mdash; mostly [Washington navel oranges](http://en.wikipedia.org/wiki/Orange_%28fruit%29#Navel_oranges) and [Valencia oranges](http://en.wikipedia.org/wiki/Valencia_orange), for the botanists among us.
@@ -40,25 +44,15 @@ end
 puts "Alas, the tree, she is dead!"
 ```
 
-## Learning Goals
+##Releases
 
-We're modeling a simple system with two objects: orange trees and oranges.  We want you to get familiar with defining simple classes and relating them to each other.  You'll also learn more about **variable scope**, and the **attr_reader/writer/accessor** methods.
-
-## External Resources
-
-* Video: [Variable Scopes in Ruby](http://www.youtube.com/watch?v=iLxKNUFHAnY)
-* StackOverflow: [Why use Ruby's attr_accessor, attr_reader, and attr_writer?](http://stackoverflow.com/questions/5046831/why-use-rubys-attr-accessor-attr-reader-and-attr-writer)
-* StackOverflow: [What is attr_accessor in Ruby?](http://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby)
-
-## Objectives
-
-### Implement the OrangeTree and Orange classes
+###Release 0 : Implement the OrangeTree and Orange classes
 
 Use `attr_reader`, `attr_writer`, and/or `attr_accessor` so that we can call `tree.height` and `tree.age` to get a tree's height or age, respectively.  Which of the three `attr_` methods should you be using and why?
 
 Do the same with the `Orange` class so that we can call `orange.diameter` to get an orange's diamater.
 
-### Implement Aging
+#### Implement Aging
 
 As a tree ages, it grows taller.  Eventually it starts bearing fruit and stops growing &mdash; not necessarily at the same time.  Some years later, the tree dies and can bear fruit no more!
 
@@ -71,7 +65,7 @@ Later, it should die.  At this point your `OrangeTree` class should:
 3. Have an `OrangeTree#age!` method which ages the tree one year and grows the tree a little, if it's able to grow
 4. Have an `OrangeTree#dead?` method which returns `true` if the tree has died
 
-### Implement Orange-picking
+#### Implement Orange-picking
 
 After some number of years &mdash; you decide &mdash; the orange tree starts to bear fruit.  Write a method `OrangeTree#any_oranges?` which returns `true` if there are any oranges on the tree and `false` otherwise.
 
@@ -79,15 +73,16 @@ Also write a method `OrangeTree#pick_an_orange!` which will return one of the or
 
 You'll also have to implement the `Orange` class at this point, including `Orange.new` and `Orange#diameter`.
 
-### Does the script run?
+#### Does the script run?
 
 Does the script at the top of the challenge run and output what you'd expect?  (Hint: you have to be clear about your expectations before you an answer that question.)
 
 If not, what are the errors or unexpected behaviors?  Do you understand them? 
 
-##Releases
-###Release 0 
-
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
+
+* Video: [Variable Scopes in Ruby](http://www.youtube.com/watch?v=iLxKNUFHAnY)
+* StackOverflow: [Why use Ruby's attr_accessor, attr_reader, and attr_writer?](http://stackoverflow.com/questions/5046831/why-use-rubys-attr-accessor-attr-reader-and-attr-writer)
+* StackOverflow: [What is attr_accessor in Ruby?](http://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby)
