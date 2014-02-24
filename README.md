@@ -1,12 +1,12 @@
-# Orange Tree 1 Just Oranges 
- 
-##Learning Competencies 
+# Orange Tree 1 Just Oranges
+
+##Learning Competencies
 
 * Modeling systems with objects.
 * Use instance variables and accessor methods effectively
 * Work with objects in Ruby
 
-##Summary 
+##Summary
 
  We're in California, and California grows oranges &mdash; mostly [Washington navel oranges](http://en.wikipedia.org/wiki/Orange_%28fruit%29#Navel_oranges) and [Valencia oranges](http://en.wikipedia.org/wiki/Valencia_orange), for the botanists among us.
 
@@ -50,7 +50,7 @@ puts "Alas, the tree, she is dead!"
 
 Use `attr_reader`, `attr_writer`, and/or `attr_accessor` so that we can call `tree.height` and `tree.age` to get a tree's height or age, respectively.  Which of the three `attr_` methods should you be using and why?
 
-Do the same with the `Orange` class so that we can call `orange.diameter` to get an orange's diamater.
+Do the same with the `Orange` class so that we can call `orange.diameter` to get an orange's diameter.
 
 #### Implement Aging
 
@@ -75,9 +75,9 @@ You'll also have to implement the `Orange` class at this point, including `Orang
 
 #### Does the script run?
 
-Does the script at the top of the challenge run and output what you'd expect?  (Hint: you have to be clear about your expectations before you an answer that question.)
+Does the script at the top of the challenge run and output what you'd expect?  (Hint: you have to be clear about your expectations before you answer that question.)
 
-If not, what are the errors or unexpected behaviors?  Do you understand them? 
+If not, what are the errors or unexpected behaviors?  Do you understand them?
 
 <!-- ##Optimize Your Learning  -->
 
