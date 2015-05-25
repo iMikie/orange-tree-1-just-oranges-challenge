@@ -15,7 +15,10 @@ until tree.dead?
     basket << tree.pick_an_orange!
   end
 
-  avg_diameter = # It's up to you to calculate the average diameter for this harvest.
+ puts "av diameter "
+ p avg_diameter = (basket.inject(0) {|sum, orange| sum = sum + orange.diameter })/basket.length
+
+
 
   puts "Year #{tree.age} Report"
   puts "Tree height: #{tree.height} feet"
